@@ -1,186 +1,184 @@
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 640px) and (min-width: 0px){
     [class*="col-"] {
         width: 100%;
     }
-header{
-	position:static;
-}
-body{
-	background-image: url("./images/concrete.png");
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	color:#777777;
-}
-.wrapper{
-	/* border:4px solid blue; */
-	position:relative;
-	min-height:100%;
-	margin-bottom: -60px;
-}
 
 
-h1, h2, h3{
-	font-family: 'Georgia', Times, Times New Roman, serif;
-}
-h2{
-	color:#4aaaa5;
-	font-size:20px;
-	padding: 20px;
-}
+	body{
+		background-image: url("./images/concrete.png");
+		font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+		color:#777777;
+	}
+	.wrapper{
+		/* border:4px solid blue; */
+		position:relative;
+		min-height:100%;
+		margin-bottom: -60px;
+	}
 
-.toplabel{
-	width: 960px;
-	margin-left:auto;
-	margin-right:auto;
-	background-color: #ffffff;
-	height:50px;
-	line-height: 50px;
-	border-bottom: 1px solid #cccccc;
-	padding-top:10px;
-}
 
-.myName{
-	float:left;
-	width: 200px;
-	text-align: center;
-	background-color: #4aaaa5;
-	color:white;
-}
-.toplabelwhite{
-	 background-color:white;
-	 height:60px;
-	 width:100%;
-}
-#main{
-	/* border:1px solid red; */
-	margin-left: auto;
-    margin-right: auto;
-    margin-top:60px;
-    width: 960px;
-    position: relative;
-}
-#contentBox{
-	width:450px;
-	margin: 50px;
-}
-.contactbox{
-	top-margin: 70px;
-}
+	h1, h2, h3{
+		font-family: 'Georgia', Times, Times New Roman, serif;
+	}
+	h2{
+		color:#4aaaa5;
+		font-size:20px;
+		padding: 20px;
+	}
 
-#contentBox, .connectwithme{
-	border:1px solid #dddddd;
-	background:white;
-	padding: 5px;	 
-}
-.aboutme{
+	.toplabel{
+		width: 100%;
+		margin-left:auto;
+		margin-right:auto;
+		background-color: #ffffff;
+		height:50px;
+		line-height: 50px;
+		border-bottom: 1px solid #cccccc;
+		padding-top:10px;
+	}
+
+	.myName{
+		width: 100%;
+		text-align: center;
+		background-color: #4aaaa5;
+		color:white;
+	}
+	.toplabelwhite{
+		 background-color:white;
+		 height:60px;
+		 width:100%;
+	}
+	#main{
+		/* border:1px solid red; */
+		margin-left: auto;
+	    margin-right: auto;
+	    margin-top:60px;
+	    width: 90%;
+	    position: relative;
+	}
+	#contentBox{
+		width:60%;
+		margin: 10px;
+	}
+	.contactbox{
+		top-margin: 10px;
+	}
+
+	#contentBox, .connectwithme{
+		border:1px solid #dddddd;
+		background:white;
+		padding: 5px;	 
+	}
+	.aboutme{
+		
+	}
+	a{
+		padding-right:5px;
+		padding-left:5px;
+		color: darkgrey;
+		text-decoration: none;
+	}
+	a:hover{
+		color:black;
+		font-size:17px;
+	}
+	label{
+		color: gray;
+	}
+	input{
+		margin-bottom: 30px;
+		width: 100%;
+		height: 20px;
+	}
+	textarea{
+		width:100%;
+		height: 100px;
+		resize:none;
+	}
+	form{
+		/* border: 1px solid red; */
+		padding: 20px;
+	}
+	#submitContact{
+		background-color: cadetblue;
+		border:5px;
+		padding: 10px;
+		width:100px;
+		color:white;
+		font-size: 12px;
+		cursor: pointer;
+	}
+	#submitContact:hover{
+		background-color: #4aaaa5;
+	}
+
+	nav{
+		float:top;
+		text-align: center;
+	}
+
+	.connectwithme{
 	
-}
-a{
-	padding-right:5px;
-	padding-left:5px;
-	color: darkgrey;
-	text-decoration: none;
-}
-a:hover{
-	color:black;
-	font-size:17px;
-}
-label{
-	color: gray;
-}
-input{
-	margin-bottom: 30px;
-	width: 100%;
-	height: 20px;
-}
-textarea{
-	width:100%;
-	height: 100px;
-	resize:none;
-}
-form{
-	/* border: 1px solid red; */
-	padding: 20px;
-}
-#submitContact{
-	background-color: cadetblue;
-	border:5px;
-	padding: 10px;
-	width:100px;
-	color:white;
-	font-size: 12px;
-	cursor: pointer;
-}
-#submitContact:hover{
-	background-color: #4aaaa5;
-}
+		position:static;
+		margin: 50px;
+		width:100%;
+		text-align: center;
+		bottom:100px;
 
-nav{
-	float:right;
-	margin-right: 50px;
-}
+	}
 
-.connectwithme{
-	float:top-right;
-	position:absolute;
-	right: 0px;
-	top: 70px;
-	margin: 50px;
-	width:300px;
-	text-align: center;
+	.icons{
+		align-self: center;
 
-}
+	}
 
-.icons{
-	align-self: center;
+	#portfolioContainer{
+		/* border:2px solid red; */
+		width:100%;
+		margin:10px;
+	}
+	.container{
+		/* border:1px solid blue; */
 
-}
-
-#portfolioContainer{
-	/* border:2px solid red; */
-	width:625px;
-	margin-left:10px;
-}
-.container{
-	/* border:1px solid blue; */
-	float:left;
-	width:285px;
-	height:222px;
-	margin: 10px 5px 10px 5px;
-	position:relative;
-}
-#meme{
-	/* border: 1px solid red; */
-	width: 283px;
-	margin-bottom: 20px;
-	position:absolute;
-}
-.memetext{
-	position:absolute;
-	color:white;
-	background-color: #4aaaa5;
-	width:100%;
-	text-align: center;
-	height:30px;
-	line-height: 40px;
-	bottom: 60px;
-}
-#githubicon, #linkedinicon, #stackoverflowicon{
-	width:70px;
-	height:70px;
-}
-#githubicon:hover, #linkedinicon:hover, #stackoverflowicon:hover{
-	width:50px;
-	cursor: pointer;
-}
-footer{
-	position:fixed;
-	bottom:0;
-	width:100%;
-	color:silver;
-	font-size: 10px;
-	height: 50px;
-	line-height: 50px;
-	text-align: center;
-	background-color: #666666;
-	border-top: 10px solid cadetblue;
+		width:285px;
+		height:222px;
+		margin: 10px 5px 10px 5px;
+		position:relative;
+	}
+	#meme{
+		/* border: 1px solid red; */
+		width: 283px;
+		margin-bottom: 20px;
+		position:absolute;
+	}
+	.memetext{
+		position:absolute;
+		color:white;
+		background-color: #4aaaa5;
+		width:100%;
+		text-align: center;
+		height:30px;
+		line-height: 40px;
+		bottom: 60px;
+	}
+	#githubicon, #linkedinicon, #stackoverflowicon{
+		width:70px;
+		height:70px;
+	}
+	#githubicon:hover, #linkedinicon:hover, #stackoverflowicon:hover{
+		width:50px;
+		cursor: pointer;
+	}
+	footer{
+		position:fixed;
+		bottom:0;
+		width:100%;
+		color:silver;
+		font-size: 10px;
+		height: 50px;
+		line-height: 50px;
+		text-align: center;
+		background-color: #666666;
+		border-top: 10px solid cadetblue;
+	}
 }
